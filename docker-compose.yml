@@ -1,0 +1,7 @@
+services:
+  api:
+    build: .
+    container_name: free-endpoint-4-testing
+    ports:
+      - "8085:8000"
+    restart: unless-stopped
